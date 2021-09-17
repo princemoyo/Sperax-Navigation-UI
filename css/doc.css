@@ -202,3 +202,7 @@ a:link {
 .card-info {
   padding-top: 4rem;
 }
+
+.navbar-brand {
+  font-size: 1.2em;
+}
