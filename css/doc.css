@@ -1,0 +1,204 @@
+/*
+ * Globals
+
+ intermediate css dont blame ok!
+ */
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+body {
+  
+  font-weight: 100;
+}
+.text-bold {
+  font-weight: bolder;
+}
+
+.text-bold2 {
+  font-weight: bold;
+}
+
+.logo {
+  height: 1.5em;
+  border-radius: 50px;
+}
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: darkgray; border-radius: 5px;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9); 
+}
+
+.overlay-content {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 2em;
+  cursor: pointer;
+  color: white;
+}
+
+.overlay .closebtn:hover {
+  color: #ccc;
+}
+
+.overlay input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: white;
+}
+
+.overlay input[type=text]:hover {
+  background: white;
+}
+.overlay button {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  background: black;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-color: white;
+}
+
+.overlay button:hover {
+  background: darkgray;
+}
+
+.card {
+  border-radius: 1rem;
+  border-color: lightgray;
+  backdrop-filter: blur(100px);
+  height: 12rem;
+}
+
+.card:hover {
+  border-color: white;
+}
+
+.card-header {
+  border-bottom: transparent;
+}
+
+.info-card {
+  height:auto;
+}
+
+
+.bg-black {
+  background-color: black;
+}
+
+.navbar {
+  border-bottom: 1px solid gray;
+  padding-bottom: 1rem;
+}
+
+main {
+  padding-top: 4rem;
+}
+
+.background {
+  background-image: url("../images/background2.jpg") ;
+  background-size:cover;                    /* <------ */
+  background-repeat:   no-repeat;
+  
+  height: 100%; 
+}
+
+a:link {
+  text-decoration-line: none;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.card-info {
+  padding-top: 4rem;
+}
